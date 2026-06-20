@@ -1,0 +1,24 @@
+[12-Jun-2026 16:10:47 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'myUsername'@'localhost' (using password: YES) in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php:12
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php(12): mysqli->__construct()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/tenant/support_debug2.php(7): require_once('/home/zyqu6yvpr...')
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php on line 12
+[12-Jun-2026 16:10:47 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'myUsername'@'localhost' (using password: YES) in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php:12
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php(12): mysqli->__construct()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/tenant/support_debug.php(7): require_once('/home/zyqu6yvpr...')
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php on line 12
+[12-Jun-2026 16:10:49 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'myUsername'@'localhost' (using password: YES) in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php:12
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php(12): mysqli->__construct()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/tenant/documents.php(6): require_once('/home/zyqu6yvpr...')
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php on line 12
+[12-Jun-2026 16:10:50 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'myUsername'@'localhost' (using password: YES) in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php:12
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php(12): mysqli->__construct()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/tenant/services.php(6): require_once('/home/zyqu6yvpr...')
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/customerDevs/propertyRent/config/db.php on line 12

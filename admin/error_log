@@ -1,0 +1,1277 @@
+[17-Jun-2026 18:26:01 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:38
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(38): mysqli_stmt->bind_param()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php(61): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 38
+[17-Jun-2026 18:37:56 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:38
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(38): mysqli_stmt->bind_param()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php(61): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 38
+[17-Jun-2026 23:43:33 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php on line 63
+[17-Jun-2026 18:56:02 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => 0
+)
+
+[17-Jun-2026 18:56:02 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 18:59:45 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => 0
+)
+
+[17-Jun-2026 18:59:45 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 18:59:45 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => 0
+    [10] => 12
+)
+
+[17-Jun-2026 18:59:45 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 18:59:59 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => some text
+)
+
+[17-Jun-2026 18:59:59 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 18:59:59 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => some text
+    [10] => 12
+)
+
+[17-Jun-2026 18:59:59 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:02:31 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => abc
+)
+
+[17-Jun-2026 19:02:31 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:02:31 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => abc
+    [10] => 12
+)
+
+[17-Jun-2026 19:02:31 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:02:32 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '...' at line 1 in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:36
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(36): mysqli->prepare()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php(66): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 36
+[17-Jun-2026 19:03:19 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => abc
+)
+
+[17-Jun-2026 19:03:19 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:03:19 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => abc
+    [10] => 12
+)
+
+[17-Jun-2026 19:03:19 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:03:19 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '...' at line 1 in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:36
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(36): mysqli->prepare()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php(65): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 36
+[17-Jun-2026 19:06:22 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => abc
+)
+
+[17-Jun-2026 19:06:22 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:06:22 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='abc'
+[17-Jun-2026 19:06:22 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => abc
+    [10] => 12
+)
+
+[17-Jun-2026 19:06:22 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:06:35 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => abc
+)
+
+[17-Jun-2026 19:06:35 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:06:35 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='abc'
+[17-Jun-2026 19:06:35 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => abc
+    [10] => 12
+)
+
+[17-Jun-2026 19:06:35 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:12:32 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => abc
+)
+
+[17-Jun-2026 19:12:32 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:12:32 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='abc'
+[17-Jun-2026 19:12:32 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => abc
+    [10] => 12
+)
+
+[17-Jun-2026 19:12:32 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:16:43 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:16:43 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:16:43 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:16:43 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:16:43 America/Bogota] UPDATE types: issiiddssii
+[17-Jun-2026 19:16:43 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:17:01 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => mantenimiento
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:17:01 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:17:01 America/Bogota] VARS: estado='mantenimiento' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:17:01 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:17:01 America/Bogota] UPDATE types: issiiddssii
+[17-Jun-2026 19:17:01 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => mantenimiento
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:23:18 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:23:18 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:23:18 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:23:18 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:23:18 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:23:18 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:28:43 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:28:43 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:28:43 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:28:43 America/Bogota] PHP Warning:  Undefined variable $sql in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php on line 63
+[17-Jun-2026 19:28:43 America/Bogota] PHP Warning:  Undefined variable $types in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php on line 63
+[17-Jun-2026 19:28:43 America/Bogota] PHP Warning:  Undefined variable $params in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php on line 63
+[17-Jun-2026 19:28:43 America/Bogota] PHP Fatal error:  Uncaught TypeError: db_execute(): Argument #2 ($sql) must be of type string, null given, called in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php on line 63 and defined in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:35
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php(63): db_execute()
+#1 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 35
+[17-Jun-2026 19:30:35 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:30:35 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:30:35 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:30:35 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:30:35 America/Bogota] UPDATE types: issiiddsssi
+[17-Jun-2026 19:30:35 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:30:35 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:30:35 America/Bogota] mysqli error: 
+[17-Jun-2026 19:35:16 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:35:16 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:35:16 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:35:16 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:35:16 America/Bogota] UPDATE types: issiddssssi
+[17-Jun-2026 19:35:16 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:35:16 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:35:16 America/Bogota] mysqli error: 
+[17-Jun-2026 19:35:24 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => mantenimiento
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:35:24 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:35:24 America/Bogota] VARS: estado='mantenimiento' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:35:24 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:35:24 America/Bogota] UPDATE types: issiddssssi
+[17-Jun-2026 19:35:24 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => mantenimiento
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:35:24 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:35:24 America/Bogota] mysqli error: 
+[17-Jun-2026 19:35:34 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:35:34 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:35:34 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:35:34 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:35:34 America/Bogota] UPDATE types: issiddssssi
+[17-Jun-2026 19:35:34 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:35:34 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:35:34 America/Bogota] mysqli error: 
+[17-Jun-2026 19:35:46 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:35:46 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 0001.jpg
+            [full_path] => 0001.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/php75pdbp09enr13fFmWOE
+            [error] => 0
+            [size] => 695
+        )
+
+)
+
+[17-Jun-2026 19:35:46 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:35:46 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, imagen_url=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:35:46 America/Bogota] UPDATE types: issiiddssiss
+[17-Jun-2026 19:35:46 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => https://sandbox.smartgigas.com/propertyRent/uploadsunidades/20260617_193546_ef8eb41a.webp
+    [11] => 12
+)
+
+[17-Jun-2026 19:35:46 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:35:46 America/Bogota] mysqli error: 
+[17-Jun-2026 19:37:09 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:37:09 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 0001.jpg
+            [full_path] => 0001.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpqm5ovtl9pei1foZNyS0
+            [error] => 0
+            [size] => 695
+        )
+
+)
+
+[17-Jun-2026 19:37:09 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:37:09 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, imagen_url=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:37:09 America/Bogota] UPDATE types: issiddssss
+[17-Jun-2026 19:37:09 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => https://sandbox.smartgigas.com/propertyRent/uploadsunidades/20260617_193709_c9e785a9.webp
+    [11] => 12
+)
+
+[17-Jun-2026 19:37:09 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:38
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(38): mysqli_stmt->bind_param()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/units.php(72): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 38
+[17-Jun-2026 19:40:02 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:40:02 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 0001.jpg
+            [full_path] => 0001.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpn6vip8aprand0mhSUSy
+            [error] => 0
+            [size] => 695
+        )
+
+)
+
+[17-Jun-2026 19:40:02 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:40:02 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, imagen_url=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:40:02 America/Bogota] UPDATE types: issiddsssssi
+[17-Jun-2026 19:40:02 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => https://sandbox.smartgigas.com/propertyRent/uploadsunidades/20260617_194002_f988979b.webp
+    [11] => 12
+)
+
+[17-Jun-2026 19:40:02 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:40:02 America/Bogota] mysqli error: 
+[17-Jun-2026 19:40:16 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:40:16 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 0002.jpg
+            [full_path] => 0002.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/php6l8nm7lnof4a5W8ecE5
+            [error] => 0
+            [size] => 731
+        )
+
+)
+
+[17-Jun-2026 19:40:16 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:40:16 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, imagen_url=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:40:16 America/Bogota] UPDATE types: issiddsssssi
+[17-Jun-2026 19:40:16 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => https://sandbox.smartgigas.com/propertyRent/uploadsunidades/20260617_194016_9dc2b023.webp
+    [11] => 12
+)
+
+[17-Jun-2026 19:40:16 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:40:16 America/Bogota] mysqli error: 
+[17-Jun-2026 19:41:58 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+)
+
+[17-Jun-2026 19:41:58 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 0001.jpg
+            [full_path] => 0001.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/php4l81nf481o6papXlf93
+            [error] => 0
+            [size] => 695
+        )
+
+)
+
+[17-Jun-2026 19:41:58 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=0 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:41:58 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, imagen_url=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:41:58 America/Bogota] UPDATE types: issiddsssssi
+[17-Jun-2026 19:41:58 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 0
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => https://sandbox.smartgigas.com/propertyRent/uploads/unidades/20260617_194158_7797ba1c.webp
+    [11] => 12
+)
+
+[17-Jun-2026 19:41:58 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:41:58 America/Bogota] mysqli error: 
+[17-Jun-2026 19:42:22 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => LOCAL 01
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 500000.00
+    [estado] => ocupada
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [publicar] => 1
+)
+
+[17-Jun-2026 19:42:22 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 19:42:22 America/Bogota] VARS: estado='ocupada' tipo='local' publicar=1 video='<iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+[17-Jun-2026 19:42:22 America/Bogota] UPDATE SQL: UPDATE units SET property_id=?, nombre=?, tipo=?, piso=?, area_m2=?, valor_arriendo=?, estado=?, descripcion=?, publicar=?, video_embed=?, updated_at=NOW() WHERE id=?
+[17-Jun-2026 19:42:22 America/Bogota] UPDATE types: issiddssssi
+[17-Jun-2026 19:42:22 America/Bogota] UPDATE params: Array
+(
+    [0] => 5
+    [1] => LOCAL 01
+    [2] => local
+    [3] => 1
+    [4] => 9
+    [5] => 500000
+    [6] => ocupada
+    [7] => ADDED IN SANDBOX 202606171837
+    [8] => 1
+    [9] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [10] => 12
+)
+
+[17-Jun-2026 19:42:22 America/Bogota] UPDATE result: Array
+(
+    [success] => 1
+    [insert_id] => 0
+    [affected_rows] => 0
+    [error] => 
+)
+
+[17-Jun-2026 19:42:22 America/Bogota] mysqli error: 
+[17-Jun-2026 19:48:13 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:38
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(38): mysqli_stmt->bind_param()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/payments_admin.php(78): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 38
+[17-Jun-2026 19:57:18 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:51
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(51): mysqli_stmt->bind_param()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/payments_admin.php(78): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 51
+[17-Jun-2026 19:57:21 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:51
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(51): mysqli_stmt->bind_param()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/payments_admin.php(78): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 51
+[17-Jun-2026 21:43:47 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 0
+    [property_id] => 5
+    [nombre] => H-02 Habitación Germán
+    [tipo] => habitacion
+    [piso] => 1
+    [area_m2] => 9
+    [valor_arriendo] => 450000
+    [estado] => ocupada
+    [descripcion] => Habitación 2. Con baño interno y cocina pequeña compartida.
+    [video_embed] => 
+)
+
+[17-Jun-2026 21:43:47 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 0007.jpg
+            [full_path] => 0007.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpbeflj6gp7t0abX6UpcO
+            [error] => 0
+            [size] => 731
+        )
+
+)
+
+[17-Jun-2026 21:43:47 America/Bogota] VARS: estado='ocupada' tipo='habitacion' publicar=0 video=''
+[17-Jun-2026 21:44:54 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 0
+    [property_id] => 5
+    [nombre] => H-02 Habitación Germán
+    [tipo] => habitacion
+    [piso] => 1
+    [area_m2] => 10
+    [valor_arriendo] => 420000
+    [estado] => ocupada
+    [descripcion] => Hab con Baño
+    [video_embed] => 
+)
+
+[17-Jun-2026 21:44:54 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 21:44:54 America/Bogota] VARS: estado='ocupada' tipo='habitacion' publicar=0 video=''
+[17-Jun-2026 21:45:07 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 0
+    [property_id] => 5
+    [nombre] => H-02 Habitación Germán
+    [tipo] => habitacion
+    [piso] => 1
+    [area_m2] => 10
+    [valor_arriendo] => 420000
+    [estado] => ocupada
+    [descripcion] => Hab con Baño
+    [video_embed] => 
+)
+
+[17-Jun-2026 21:45:07 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2026 21:45:07 America/Bogota] VARS: estado='ocupada' tipo='habitacion' publicar=0 video=''
+[18-Jun-2026 00:10:36 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'nino@test.com' for key 'email' in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:53
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(53): mysqli_stmt->execute()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/tenants.php(52): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 53
+[18-Jun-2026 00:17:21 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'nino@test.com' for key 'email' in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:53
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(53): mysqli_stmt->execute()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/tenants.php(52): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 53
+[18-Jun-2026 00:17:25 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'nino@test.com' for key 'email' in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:53
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(53): mysqli_stmt->execute()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/tenants.php(52): db_execute()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 53
+[18-Jun-2026 23:57:11 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: BIGINT UNSIGNED value is out of range in '`1_propertyRent`.`l`.`dia_vencimiento` - 5' in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php:38
+Stack trace:
+#0 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php(38): mysqli_stmt->get_result()
+#1 /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/admin/leases.php(101): db_query()
+#2 {main}
+  thrown in /home/zyqu6yvprgvo/public_html/smartgigas.com/z_sandbox/propertyRent/config/db.php on line 38
+[19-Jun-2026 13:22:37 America/Bogota] POST data: Array
+(
+    [action] => save
+    [id] => 12
+    [property_id] => 5
+    [nombre] => 101-L
+    [tipo] => local
+    [piso] => 1
+    [area_m2] => 9.00
+    [valor_arriendo] => 400000.00
+    [estado] => ocupada
+    [ocupante_tipo] => propietario
+    [descripcion] => ADDED IN SANDBOX 202606171837
+    [video_embed] => <iframe width="560" height="315" src="https://www.youtube.com/embed/s0ffu9CAw1o?si=Ei3Xs8H0ZTH5D8oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    [publicar] => 1
+)
+
+[19-Jun-2026 13:22:37 America/Bogota] FILES data: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
